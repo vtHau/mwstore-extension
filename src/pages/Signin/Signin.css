@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+:root {
+  --primary: #08aeea;
+  --secondary: #13d2b8;
+  --purple: #bd93f9;
+  --pink: #ff6bcb;
+  --blue: #8be9fd;
+  --gray: #333;
+  --font: "Poppins", sans-serif;
+  --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+  --shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 1.4rem;
+  overflow-x: hidden;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: var(--font);
+  font-size: 1.4rem;
+  font-weight: 300;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.sigin-page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+}
+.signup-heading {
+  text-align: center;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.input-error {
+  color: red;
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-left: 34px;
+}
+
+.form-input {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.form-submit {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-submit:focus {
+  outline: none;
+}
+.form-submit:hover {
+  outline: none;
+}
+
+.btn-submit {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.377);
+}
+
+.avatar-signin {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .signup {
+    padding: 30px 20px;
+  }
+}
